@@ -1,0 +1,43 @@
+h2{
+  font-size: 50px;
+  margin-top: 0;
+  margin-top: 20px;
+}
+
+.container{
+  background: violet;
+  max-width: 80%;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+  text-align: center;
+}
+button{
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+#increment-btn{
+  background: darkred;
+}
+
+#save-btn{
+  background: darkblue;
+}
+
+#reset-btn{
+  background: green;
+}
+
+
+.button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
